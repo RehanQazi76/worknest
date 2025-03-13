@@ -12,7 +12,7 @@ import {
 
 import React, { useState, useTransition } from "react";
 import { Button } from "./ui/button";
-import { usePathname, useRouter } from "next/navigation";
+import {  useRouter } from "next/navigation";
 import { useRoom } from "@liveblocks/react";
 import { deleteDocuments } from "@/actions/actions";
 import { toast } from "sonner";

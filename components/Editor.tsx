@@ -1,6 +1,6 @@
 'use client'
 import { useRoom, useSelf } from '@liveblocks/react/suspense'
-import React, { use, useEffect, useState } from 'react'
+import React, {  useEffect, useState } from 'react'
 import * as Y from 'yjs'
 import { LiveblocksYjsProvider } from '@liveblocks/yjs'
 import { Button } from './ui/button'
